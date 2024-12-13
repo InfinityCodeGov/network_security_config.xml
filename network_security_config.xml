@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Permite tráfego HTTP para todos os domínios -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">*.<your_domain_here>.com</domain>
+    </domain-config>
+</network-security-config>
